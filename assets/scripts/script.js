@@ -7,16 +7,14 @@ function handleToggleAccordion() {
   document.getElementById("arrow-icon").classList.toggle("arrow-icon-rotate");
 }
 
-let productPage = 1;
+let nextPage =
+  "https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1";
 
 function handleGetMoreProducts() {
-  fetch(
-    `https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=${productPage}`,
-    {
-      method: "GET",
-      headers: new Headers(),
-    }
-  )
+  fetch(nextPage, {
+    method: "GET",
+    headers: new Headers(),
+  })
     .then((res) => res.json())
     .then((data) => {
       const productsElement = document.getElementById("products");
@@ -65,8 +63,8 @@ function handleGetMoreProducts() {
 
         productsElement.appendChild(productElement);
       });
-
-      productPage++;
+      nextPage = `https://${data.nextPage}`;
+      console.log(nextPage);
     })
     .catch((err) => {
       alert("Ocorreu um erro ao carregar os produtos!");
