@@ -229,10 +229,7 @@
 /* Your special selection */
 
 #your-special-selection-container .content {
-  max-width: 1000px;
-  width: 90%;
   margin: 9rem auto;
-
 }
 
 #your-special-selection-container .content header {
@@ -371,8 +368,6 @@
 /* Share the news */
 
 #share-the-news-container .content {
-  max-width: 1000px;
-  width: 90%;
   margin: 9rem auto 0;
 }
 
