@@ -119,78 +119,11 @@
           <div class="horizontal-line"></div>
         </header>
 
-        <div class="products">
-          <div class="product">
-            <img
-              src="https://www.multiloja.com.br/comprar/produtos/fotos500/209378.jpg"
-              alt=""
-            />
-            <div>
-              <span class="product-name">Nome do produto</span>
-              <span class="product-description">
-                Descrição do produto um pouco maior, com duas linhas ou três que
-                explica melhor do que se trata.
-              </span>
-              <span class="product-old-price">De: R$23,99</span>
-              <span class="product-price">Por: R$19,99</span>
-              <span class="product-obs">ou 2x de R$9,99</span>
-              <button type="button">Comprar</button>
-            </div>
-          </div>
-          <div class="product">
-            <img
-              src="https://www.multiloja.com.br/comprar/produtos/fotos500/209378.jpg"
-              alt=""
-            />
-            <div>
-              <span class="product-name">Nome do produto</span>
-              <span class="product-description">
-                Descrição do produto um pouco maior, com duas linhas ou três que
-                explica melhor do que se trata.
-              </span>
-              <span class="product-old-price">De: R$23,99</span>
-              <span class="product-price">Por: R$19,99</span>
-              <span class="product-obs">ou 2x de R$9,99</span>
-              <button type="button">Comprar</button>
-            </div>
-          </div>
-          <div class="product">
-            <img
-              src="https://www.multiloja.com.br/comprar/produtos/fotos500/209378.jpg"
-              alt=""
-            />
-            <div>
-              <span class="product-name">Nome do produto</span>
-              <span class="product-description">
-                Descrição do produto um pouco maior, com duas linhas ou três que
-                explica melhor do que se trata.
-              </span>
-              <span class="product-old-price">De: R$23,99</span>
-              <span class="product-price">Por: R$19,99</span>
-              <span class="product-obs">ou 2x de R$9,99</span>
-              <button type="button">Comprar</button>
-            </div>
-          </div>
-          <div class="product">
-            <img
-              src="https://www.multiloja.com.br/comprar/produtos/fotos500/209378.jpg"
-              alt=""
-            />
-            <div>
-              <span class="product-name">Nome do produto</span>
-              <span class="product-description">
-                Descrição do produto um pouco maior, com duas linhas ou três que
-                explica melhor do que se trata.
-              </span>
-              <span class="product-old-price">De: R$23,99</span>
-              <span class="product-price">Por: R$19,99</span>
-              <span class="product-obs">ou 2x de R$9,99</span>
-              <button type="button">Comprar</button>
-            </div>
-          </div>
-        </div>
+        <div class="products" id="products"></div>
         <div class="input-block">
-          <button type="button">Ainda mais produtos aqui!</button>
+          <button type="button" onclick="handleGetMoreProducts()">
+            Ainda mais produtos aqui!
+          </button>
         </div>
       </div>
     </section>
@@ -203,7 +136,7 @@
           <div class="horizontal-line"></div>
         </header>
 
-        <form id="newsForm">
+        <form id="newsletter">
           <span
             >Quer que seus amigos também ganhem a lista personalizada deles?
             Preencha agora!</span
