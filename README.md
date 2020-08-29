@@ -38,7 +38,7 @@ O layout da landing page está disponível no [Adobe XD](https://xd.adobe.com/sp
 
 ---
 
-## 🎨 Demo
+## :tv: Demo
 
 A demo está disponivel neste [Link](https://frontend-developer-challenge-at-linx.netlify.app/):
 
