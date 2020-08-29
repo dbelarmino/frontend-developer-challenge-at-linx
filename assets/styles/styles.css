@@ -1,0 +1,479 @@
+/* a selection of products special for you */
+
+#special-product-selection-for-you-container {
+  width: 100%;
+  height: 100%;
+  background-color: #707070;
+  padding: 6.6rem 0;
+  background: linear-gradient(186deg, #707070 50% 65%, #fff 50% 35%);
+}
+
+#special-product-selection-for-you-container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#special-product-selection-for-you-container .content h5 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+#special-product-selection-for-you-container .content h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+#special-product-selection-for-you-container .content p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+  align-self: flex-start;
+}
+
+#special-product-selection-for-you-container .content .cards {
+  margin: 0 auto;
+  margin-top: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#special-product-selection-for-you-container .content .cards span {
+  width: 16rem;
+  height: 4rem;
+  background: #fff;
+  border: 0.1rem solid;
+  border-radius: 0.4rem solid #707070;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+@media(min-width: 1025px) {
+  #special-product-selection-for-you-container {
+    padding-bottom: 15rem;
+  }
+
+  #special-product-selection-for-you-container .content h5,
+  #special-product-selection-for-you-container .content h1,
+  #special-product-selection-for-you-container .content p {
+    align-self: center;
+  }
+}
+
+
+/* Help the algorithm be more accurate */
+
+#help-the-algorithm-be-more-accurate-container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#help-the-algorithm-be-more-accurate-container .content article,
+#help-the-algorithm-be-more-accurate-container .content form {
+  width: 100%;
+}
+
+
+#help-the-algorithm-be-more-accurate-container .content article button {
+  width: 100%;
+  max-height: 2.3rem;
+  background: transparent;
+  border: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#help-the-algorithm-be-more-accurate-container .content article button i {
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+#help-the-algorithm-be-more-accurate-container .content article p {
+  margin: 1.7rem 0;
+  font-size: 1.2rem;
+  height: 0;
+  overflow: hidden;
+}
+
+.show-accordion-content {
+  height: 100% !important;
+  overflow: auto !important;
+}
+
+.arrow-icon-rotate {
+  transform: rotate(0) !important;
+}
+
+
+#help-the-algorithm-be-more-accurate-container .content form .input-block {
+  width: 100%;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .input-block label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #707070;
+
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .input-block input {
+  width: 100%;
+  height: 3.0rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #707070;
+  margin: 0.7rem 0;
+  padding: 0 1rem;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres .genre {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem 0;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres .genre+.genre {
+  margin-left: 4rem;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres .genre input {
+  width: 1.4rem;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres .genre label {
+  font-size: 1.2rem;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .genres .genre label {
+  margin-left: 0.5rem;
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .input-block {
+  margin-top: 0.7rem;
+
+}
+
+#help-the-algorithm-be-more-accurate-container .content form .input-block button {
+  width: 100%;
+  height: 3.9rem;
+  border: 0.1rem solid #707070;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  color: #888888;
+  cursor: pointer;
+  background: none;
+}
+
+@media(min-width: 800px) {
+  #help-the-algorithm-be-more-accurate-container .content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #help-the-algorithm-be-more-accurate-container .content article {
+    width: 60%;
+    padding: 0 2rem;
+  }
+
+
+  #help-the-algorithm-be-more-accurate-container .content form {
+    width: 40%;
+    padding: 0 2rem;
+  }
+}
+
+
+@media(min-width: 1025px) {
+  #help-the-algorithm-be-more-accurate-container .content article button {
+    cursor: text;
+  }
+
+  #help-the-algorithm-be-more-accurate-container .content article button i {
+    display: none;
+  }
+
+  #help-the-algorithm-be-more-accurate-container .content article p {
+    height: 100%;
+  }
+}
+
+
+/* Your special selection */
+
+#your-special-selection-container .content {
+  max-width: 1000px;
+  width: 90%;
+  margin: 9rem auto;
+
+}
+
+#your-special-selection-container .content header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#your-special-selection-container .content header h1 {
+  min-width: max-content;
+  text-align: center;
+  color: #888888;
+  font-size: 1.8rem;
+  padding: 0 1.7rem;
+}
+
+#your-special-selection-container .content .products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-gap: 3.5rem;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2.3rem;
+}
+
+#your-special-selection-container .content .products .product {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#your-special-selection-container .content .products .product img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#your-special-selection-container .content .products .product div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 2.3rem;
+}
+
+#your-special-selection-container .content .products .product div>*+* {
+  margin-top: 1rem;
+}
+
+#your-special-selection-container .content .products .product div span.product-name {
+  font-size: 1.4rem;
+}
+
+
+#your-special-selection-container .content .products .product div span.product-description {
+  display: none;
+  font-size: 1.2rem;
+}
+
+#your-special-selection-container .content .products .product div span.product-price {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+
+#your-special-selection-container .content .products .product div span.product-old-price,
+#your-special-selection-container .content .products .product div span.product-obs {
+  font-size: 1.2rem;
+}
+
+#your-special-selection-container .content .products .product div button {
+  width: 100%;
+  height: 3.5rem;
+  border: 0.1rem solid #707070;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  color: #888888;
+  cursor: pointer;
+  background: none;
+}
+
+#your-special-selection-container .content .input-block {
+  display: flex;
+  justify-content: center;
+}
+
+#your-special-selection-container .content .input-block button {
+  max-width: 26rem;
+  width: 100%;
+  height: 3.9rem;
+  margin-top: 5.3rem;
+  border: 0.1rem solid #707070;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  color: #888888;
+  cursor: pointer;
+  background: none;
+}
+
+@media(min-width: 750px) {
+  #your-special-selection-container .content .products {
+    grid-template-columns: repeat(2, 21rem);
+  }
+
+  #your-special-selection-container .content .products .product {
+    height: max-content;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #your-special-selection-container .content .products .product img {
+    width: 100% !important;
+  }
+
+  #your-special-selection-container .content .products .product div {
+    margin-top: 1.4rem;
+    padding: 0 0 0 0;
+  }
+
+  #your-special-selection-container .content .products .product div span.product-description {
+    display: block;
+  }
+}
+
+@media(min-width: 1000px) {
+  #your-special-selection-container .content .products {
+    grid-template-columns: repeat(4, 21rem);
+  }
+}
+
+
+/* Share the news */
+
+#share-the-news-container .content {
+  max-width: 1000px;
+  width: 90%;
+  margin: 9rem auto 0;
+}
+
+#share-the-news-container .content header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#share-the-news-container .content header h1 {
+  min-width: max-content;
+  text-align: center;
+  color: #888888;
+  font-size: 1.8rem;
+  padding: 0 2.8rem;
+}
+
+#share-the-news-container .content form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#share-the-news-container .content form span {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 2.8rem 0;
+}
+
+#share-the-news-container .content form .input-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#share-the-news-container .content form .input-group .input-block {
+  width: 100%;
+}
+
+#share-the-news-container .content form .input-group .input-block label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #707070;
+}
+
+#share-the-news-container .content form .input-group .input-block input {
+  width: 100%;
+  height: 3.0rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #707070;
+  margin: 0.7rem 0;
+  padding: 0 1rem;
+}
+
+#share-the-news-container .content form .input-group .input-block {
+  margin-top: 0.7rem;
+
+}
+
+#share-the-news-container .content form button {
+  width: 30rem;
+  height: 3.5rem;
+  margin-top: 5.3rem;
+  border: 0.1rem solid #707070;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  color: #888888;
+  cursor: pointer;
+  background: none;
+}
+
+
+@media(min-width: 600px) {
+  #share-the-news-container .content form .input-group {
+    flex-direction: row;
+  }
+
+  #share-the-news-container .content form .input-group .input-block {
+    margin: 0 2rem;
+    max-width: 34rem;
+  }
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: max-content;
+  padding: 15rem 0 9rem 0;
+  background-color: #707070;
+  background: linear-gradient(355deg, #707070 50% 60%, #fff 50% 40%);
+}
+
+footer .content p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  padding-top: 10rem;
+}
