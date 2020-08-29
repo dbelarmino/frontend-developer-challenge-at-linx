@@ -56,11 +56,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Utilitários**
 
 - Protótipo: **[Adobe XD](https://www.adobe.com/br/products/xd.html)**
-- Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Markdown: **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Ícones: **[Material Icons](https://material.io/resources/icons/?style=baseline)**
 
-- Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto)**
+- Fonte: **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
 ---
 
