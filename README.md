@@ -32,6 +32,18 @@ O desafio consiste no desenvolvimento do layout de uma landing page com uma grad
 
 ---
 
+## 🎨 Layout
+
+O layout da landing page está disponível no [Adobe XD](https://xd.adobe.com/spec/4025e242-a495-4594-71d2-5fd89d774b57-3614/grid):
+
+---
+
+## 🎨 Demo
+
+A demo está disponivel neste [Link](https://frontend-developer-challenge-at-linx.netlify.app/):
+
+---
+
 ## 🚀 Como executar o projeto
 
 ```bash
