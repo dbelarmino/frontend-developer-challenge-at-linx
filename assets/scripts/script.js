@@ -63,8 +63,8 @@ function handleGetMoreProducts() {
 
         productsElement.appendChild(productElement);
       });
+
       nextPage = `https://${data.nextPage}`;
-      console.log(nextPage);
     })
     .catch((err) => {
       alert("Ocorreu um erro ao carregar os produtos!");
