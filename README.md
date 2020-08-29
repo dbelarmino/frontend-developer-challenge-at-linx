@@ -67,6 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Utilitários**
 
+- Hospedagem: **[Netlify](https://www.netlify.com)**
 - Protótipo: **[Adobe XD](https://www.adobe.com/br/products/xd.html)**
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Markdown: **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
